@@ -1,0 +1,26 @@
+		 
+.wps301-form					{ max-width: 1200px; width: 100%; margin-top: 10px; }
+
+tr								{ margin:0; padding: 0;}
+
+td.dragger 						{ cursor: pointer; background: url( 'row-move.png' ) no-repeat 5px 6px; padding-left: 30px; padding-bottom: 4px; width: 40%; }
+
+td.destination					{ position: relative; width: 65%; }
+
+td.spacer						{ margin: 0; padding: 7px 2px 0px 2px; }
+
+td.no-border					{ border-bottom: none; }
+
+.wp-list-table input			{ width: 94%; }
+
+td.new-item-input 				{ padding-left: 30px; margin: 2px 0; border-bottom: none; position: relative; padding-bottom: 4px; }
+
+#wps301-addnew					{ width: 20px; height: 20px; position: absolute; top: 6px; left: 5px;  background: url( 'button-plus.png' ) no-repeat 3px 3px;  }
+
+.addable #wps301-addnew:hover 	{ background-position: 3px -26px; cursor: pointer; }
+
+.wps301-delete					{ width: 20px; height: 20px; position: absolute; top: 6px; right: 5px;  background: url( 'button-del.png' ) no-repeat 3px 3px;  }
+
+.wps301-delete:hover			{ background-position: 3px -26px; cursor: pointer; }
+
+.sortable-placeholder			{ height: 35px; }	
